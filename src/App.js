@@ -1,11 +1,10 @@
 import './App.css';
-import HeroSection from './pages/Hero/heroSection'
+import Juice from "@component/Juice"
 
 function App() {
   return (
     <div className="App">
-     Hello
-     <HeroSection/>
+     <Juice/>
     </div>
   );
 }
